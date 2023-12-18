@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0; /* Set your desired background color */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+h3 {
+    color: #777;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 3px solid #333;
+    margin: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #ff6347;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.yellow {
+    background-color: #f1c40f;
+}
+
+.purple {
+    background-color: #8e44ad;
+}
